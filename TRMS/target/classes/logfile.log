@@ -17063,3 +17063,550 @@ INFO  | 2021-10-29 08:49:42 | [main] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.ja
 INFO  | 2021-10-29 08:49:42 | [main] service.EventServiceImpl (EventServiceImpl.java:31) - Get information of Event 1.
 INFO  | 2021-10-29 08:49:42 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:49) - Execution completed
 INFO  | 2021-10-29 08:49:43 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:89) - Execution completed
+INFO  | 2021-10-29 08:51:33 | [main] hibernate.Version (Version.java:44) - HHH000412: Hibernate ORM core version 5.5.3.Final
+INFO  | 2021-10-29 08:51:33 | [main] java.JavaReflectionManager (JavaReflectionManager.java:56) - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+WARN  | 2021-10-29 08:51:33 | [main] internal.DriverManagerConnectionProviderImpl (DriverManagerConnectionProviderImpl.java:72) - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+INFO  | 2021-10-29 08:51:33 | [main] internal.DriverManagerConnectionProviderImpl (DriverManagerConnectionProviderImpl.java:115) - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://database-1.cdzv9xon8e1s.us-east-2.rds.amazonaws.com/postgres]
+INFO  | 2021-10-29 08:51:33 | [main] internal.DriverManagerConnectionProviderImpl (DriverManagerConnectionProviderImpl.java:124) - HHH10001001: Connection properties: {user=whyrchris, password=****}
+INFO  | 2021-10-29 08:51:33 | [main] internal.DriverManagerConnectionProviderImpl (DriverManagerConnectionProviderImpl.java:129) - HHH10001003: Autocommit mode: false
+INFO  | 2021-10-29 08:51:33 | [main] internal.DriverManagerConnectionProviderImpl$PooledConnections (DriverManagerConnectionProviderImpl.java:274) - HHH000115: Hibernate connection pool size: 20 (min=1)
+INFO  | 2021-10-29 08:51:35 | [main] dialect.Dialect (Dialect.java:175) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+INFO  | 2021-10-29 08:51:36 | [main] internal.DdlTransactionIsolatorNonJtaImpl (DdlTransactionIsolatorNonJtaImpl.java:48) - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7a81065e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  | 2021-10-29 08:51:36 | [main] internal.JtaPlatformInitiator (JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  | 2021-10-29 08:51:37 | [main] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:62) - Execution completed
+INFO  | 2021-10-29 10:07:42 | [qtp3213500-22] service.LoginServiceImpl (LoginServiceImpl.java:39) - Get Login information for checking login.
+INFO  | 2021-10-29 10:07:42 | [qtp3213500-22] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:83) - Execution completed
+INFO  | 2021-10-29 10:07:42 | [qtp3213500-22] service.LoginServiceImpl (LoginServiceImpl.java:33) - Get User information Chris.
+INFO  | 2021-10-29 10:07:43 | [qtp3213500-22] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:107) - Execution completed
+INFO  | 2021-10-29 10:07:43 | [qtp3213500-22] controller.LoginController (LoginController.java:29) - The login input found in our user database.
+INFO  | 2021-10-29 10:07:43 | [qtp3213500-41] service.EventServiceImpl (EventServiceImpl.java:37) - Get all Events for user 1.
+INFO  | 2021-10-29 10:07:43 | [qtp3213500-41] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:07:44 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:07:44 | [qtp3213500-41] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:07:45 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:133) - Execution completed
+INFO  | 2021-10-29 10:07:45 | [qtp3213500-41] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:07:45 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:133) - Execution completed
+INFO  | 2021-10-29 10:07:46 | [qtp3213500-41] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:07:46 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:133) - Execution completed
+INFO  | 2021-10-29 10:07:46 | [qtp3213500-41] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:55) - Execution completed
+INFO  | 2021-10-29 10:07:47 | [qtp3213500-41] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:07:47 | [qtp3213500-41] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:07:47 | [qtp3213500-41] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:07:48 | [qtp3213500-41] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:07:48 | [qtp3213500-41] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:07:49 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:07:50 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:07:51 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:07:52 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:07:52 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:07:53 | [qtp3213500-41] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:07:54 | [qtp3213500-41] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:07:55 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:07:55 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:07:56 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:07:59 | [qtp3213500-41] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:48) - Execution completed
+INFO  | 2021-10-29 10:08:00 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:08:01 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:08:02 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:08:03 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:08:04 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:08:05 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:08:05 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:08:06 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:08:07 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:08:08 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:08:08 | [qtp3213500-41] controller.EventConntroller (EventConntroller.java:37) - Pull out all events for user 1.
+INFO  | 2021-10-29 10:08:08 | [qtp3213500-43] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:08:08 | [qtp3213500-43] controller.EventConntroller (EventConntroller.java:62) - Pull out user 1 information.
+INFO  | 2021-10-29 10:08:08 | [qtp3213500-41] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:08:08 | [qtp3213500-41] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:08:08 | [qtp3213500-41] controller.EventConntroller (EventConntroller.java:104) - Pull out user 1 information.
+INFO  | 2021-10-29 10:08:08 | [qtp3213500-43] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:08:08 | [qtp3213500-43] controller.EventConntroller (EventConntroller.java:83) - Pull out user 4 information.
+INFO  | 2021-10-29 10:08:27 | [qtp3213500-43] service.LoginServiceImpl (LoginServiceImpl.java:39) - Get Login information for checking login.
+INFO  | 2021-10-29 10:08:27 | [qtp3213500-43] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:83) - Execution completed
+INFO  | 2021-10-29 10:08:27 | [qtp3213500-43] controller.LoginController (LoginController.java:32) - Didn't find this user login.
+INFO  | 2021-10-29 10:08:37 | [qtp3213500-43] service.LoginServiceImpl (LoginServiceImpl.java:39) - Get Login information for checking login.
+INFO  | 2021-10-29 10:08:37 | [qtp3213500-43] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:83) - Execution completed
+INFO  | 2021-10-29 10:08:37 | [qtp3213500-43] controller.LoginController (LoginController.java:32) - Didn't find this user login.
+INFO  | 2021-10-29 10:08:46 | [qtp3213500-43] service.LoginServiceImpl (LoginServiceImpl.java:39) - Get Login information for checking login.
+INFO  | 2021-10-29 10:08:47 | [qtp3213500-43] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:83) - Execution completed
+INFO  | 2021-10-29 10:08:47 | [qtp3213500-43] service.LoginServiceImpl (LoginServiceImpl.java:33) - Get User information English.
+INFO  | 2021-10-29 10:08:47 | [qtp3213500-43] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:107) - Execution completed
+INFO  | 2021-10-29 10:08:47 | [qtp3213500-43] controller.LoginController (LoginController.java:29) - The login input found in our user database.
+INFO  | 2021-10-29 10:08:47 | [qtp3213500-41] service.EventServiceImpl (EventServiceImpl.java:37) - Get all Events for user 4.
+INFO  | 2021-10-29 10:08:47 | [qtp3213500-41] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:08:48 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:08:49 | [qtp3213500-41] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:08:49 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:133) - Execution completed
+INFO  | 2021-10-29 10:08:49 | [qtp3213500-41] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:08:50 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:133) - Execution completed
+INFO  | 2021-10-29 10:08:50 | [qtp3213500-41] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:08:50 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:133) - Execution completed
+INFO  | 2021-10-29 10:08:51 | [qtp3213500-41] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:08:51 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:133) - Execution completed
+INFO  | 2021-10-29 10:08:51 | [qtp3213500-41] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:55) - Execution completed
+INFO  | 2021-10-29 10:08:52 | [qtp3213500-41] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:08:52 | [qtp3213500-41] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:08:53 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:08:53 | [qtp3213500-41] controller.EventConntroller (EventConntroller.java:37) - Pull out all events for user 4.
+INFO  | 2021-10-29 10:08:53 | [qtp3213500-43] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:08:53 | [qtp3213500-43] controller.EventConntroller (EventConntroller.java:62) - Pull out user 4 information.
+INFO  | 2021-10-29 10:08:54 | [qtp3213500-41] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:08:54 | [qtp3213500-41] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:08:54 | [qtp3213500-41] controller.EventConntroller (EventConntroller.java:104) - Pull out user 4 information.
+INFO  | 2021-10-29 10:08:54 | [qtp3213500-43] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:08:54 | [qtp3213500-43] controller.EventConntroller (EventConntroller.java:83) - Pull out user 3 information.
+INFO  | 2021-10-29 10:15:36 | [qtp3213500-23] service.LoginServiceImpl (LoginServiceImpl.java:39) - Get Login information for checking login.
+INFO  | 2021-10-29 10:15:36 | [qtp3213500-23] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:83) - Execution completed
+INFO  | 2021-10-29 10:15:36 | [qtp3213500-23] service.LoginServiceImpl (LoginServiceImpl.java:33) - Get User information Chris.
+INFO  | 2021-10-29 10:15:37 | [qtp3213500-23] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:107) - Execution completed
+INFO  | 2021-10-29 10:15:37 | [qtp3213500-23] controller.LoginController (LoginController.java:29) - The login input found in our user database.
+INFO  | 2021-10-29 10:15:37 | [qtp3213500-45] service.EventServiceImpl (EventServiceImpl.java:37) - Get all Events for user 1.
+INFO  | 2021-10-29 10:15:37 | [qtp3213500-45] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:15:38 | [qtp3213500-45] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:15:38 | [qtp3213500-45] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:15:39 | [qtp3213500-45] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:133) - Execution completed
+INFO  | 2021-10-29 10:15:39 | [qtp3213500-45] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:15:39 | [qtp3213500-45] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:133) - Execution completed
+INFO  | 2021-10-29 10:15:40 | [qtp3213500-45] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:15:40 | [qtp3213500-45] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:133) - Execution completed
+INFO  | 2021-10-29 10:15:40 | [qtp3213500-45] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:55) - Execution completed
+INFO  | 2021-10-29 10:15:40 | [qtp3213500-45] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:15:41 | [qtp3213500-45] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:15:41 | [qtp3213500-45] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:15:41 | [qtp3213500-45] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:15:42 | [qtp3213500-45] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:15:42 | [qtp3213500-45] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:15:43 | [qtp3213500-45] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:15:44 | [qtp3213500-45] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:15:45 | [qtp3213500-45] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:15:46 | [qtp3213500-45] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:15:46 | [qtp3213500-45] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:15:48 | [qtp3213500-45] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:15:48 | [qtp3213500-45] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:15:50 | [qtp3213500-45] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:15:51 | [qtp3213500-45] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:15:53 | [qtp3213500-45] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:48) - Execution completed
+INFO  | 2021-10-29 10:15:54 | [qtp3213500-45] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:15:55 | [qtp3213500-45] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:15:56 | [qtp3213500-45] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:15:57 | [qtp3213500-45] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:15:58 | [qtp3213500-45] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:15:58 | [qtp3213500-45] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:15:59 | [qtp3213500-45] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:16:00 | [qtp3213500-45] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:16:01 | [qtp3213500-45] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:16:01 | [qtp3213500-45] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:16:01 | [qtp3213500-45] controller.EventConntroller (EventConntroller.java:37) - Pull out all events for user 1.
+INFO  | 2021-10-29 10:16:02 | [qtp3213500-46] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:16:02 | [qtp3213500-46] controller.EventConntroller (EventConntroller.java:62) - Pull out user 1 information.
+INFO  | 2021-10-29 10:16:02 | [qtp3213500-45] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:16:03 | [qtp3213500-45] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:16:03 | [qtp3213500-45] controller.EventConntroller (EventConntroller.java:104) - Pull out user 1 information.
+INFO  | 2021-10-29 10:16:03 | [qtp3213500-46] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:16:03 | [qtp3213500-46] controller.EventConntroller (EventConntroller.java:83) - Pull out user 4 information.
+INFO  | 2021-10-29 10:16:46 | [qtp3213500-45] service.EventServiceImpl (EventServiceImpl.java:201) - Start update a Event
+INFO  | 2021-10-29 10:16:46 | [qtp3213500-45] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:49) - Execution completed
+INFO  | 2021-10-29 10:16:47 | [qtp3213500-45] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:16:47 | [qtp3213500-45] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:16:47 | [qtp3213500-45] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:16:48 | [qtp3213500-45] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:16:48 | [qtp3213500-45] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:16:48 | [qtp3213500-45] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:133) - Execution completed
+INFO  | 2021-10-29 10:16:48 | [qtp3213500-45] controller.EventConntroller (EventConntroller.java:151) - Update event for user 1 succeeded
+INFO  | 2021-10-29 10:17:16 | [qtp3213500-45] service.LoginServiceImpl (LoginServiceImpl.java:39) - Get Login information for checking login.
+INFO  | 2021-10-29 10:17:16 | [qtp3213500-45] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:83) - Execution completed
+INFO  | 2021-10-29 10:17:16 | [qtp3213500-45] controller.LoginController (LoginController.java:32) - Didn't find this user login.
+INFO  | 2021-10-29 10:17:29 | [qtp3213500-45] service.LoginServiceImpl (LoginServiceImpl.java:39) - Get Login information for checking login.
+INFO  | 2021-10-29 10:17:29 | [qtp3213500-45] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:83) - Execution completed
+INFO  | 2021-10-29 10:17:29 | [qtp3213500-45] service.LoginServiceImpl (LoginServiceImpl.java:33) - Get User information English.
+INFO  | 2021-10-29 10:17:30 | [qtp3213500-45] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:107) - Execution completed
+INFO  | 2021-10-29 10:17:30 | [qtp3213500-45] controller.LoginController (LoginController.java:29) - The login input found in our user database.
+INFO  | 2021-10-29 10:17:30 | [qtp3213500-47] service.EventServiceImpl (EventServiceImpl.java:37) - Get all Events for user 4.
+INFO  | 2021-10-29 10:17:30 | [qtp3213500-47] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:17:32 | [qtp3213500-47] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:17:32 | [qtp3213500-47] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:17:32 | [qtp3213500-47] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:133) - Execution completed
+INFO  | 2021-10-29 10:17:32 | [qtp3213500-47] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:17:33 | [qtp3213500-47] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:133) - Execution completed
+INFO  | 2021-10-29 10:17:33 | [qtp3213500-47] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:17:33 | [qtp3213500-47] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:133) - Execution completed
+INFO  | 2021-10-29 10:17:34 | [qtp3213500-47] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:55) - Execution completed
+INFO  | 2021-10-29 10:17:34 | [qtp3213500-47] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:17:35 | [qtp3213500-47] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:17:36 | [qtp3213500-47] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:17:36 | [qtp3213500-47] controller.EventConntroller (EventConntroller.java:37) - Pull out all events for user 4.
+INFO  | 2021-10-29 10:17:36 | [qtp3213500-45] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:17:36 | [qtp3213500-45] controller.EventConntroller (EventConntroller.java:62) - Pull out user 4 information.
+INFO  | 2021-10-29 10:17:37 | [qtp3213500-47] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:17:37 | [qtp3213500-47] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:17:37 | [qtp3213500-47] controller.EventConntroller (EventConntroller.java:104) - Pull out user 4 information.
+INFO  | 2021-10-29 10:17:37 | [qtp3213500-45] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:17:37 | [qtp3213500-45] controller.EventConntroller (EventConntroller.java:83) - Pull out user 3 information.
+INFO  | 2021-10-29 10:18:12 | [qtp3213500-47] service.EventServiceImpl (EventServiceImpl.java:201) - Start update a Event
+INFO  | 2021-10-29 10:18:13 | [qtp3213500-47] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:49) - Execution completed
+INFO  | 2021-10-29 10:18:13 | [qtp3213500-47] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:18:13 | [qtp3213500-47] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:18:13 | [qtp3213500-47] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:18:14 | [qtp3213500-47] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:18:14 | [qtp3213500-47] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:18:14 | [qtp3213500-47] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:133) - Execution completed
+INFO  | 2021-10-29 10:18:14 | [qtp3213500-47] controller.EventConntroller (EventConntroller.java:151) - Update event for user 4 succeeded
+INFO  | 2021-10-29 10:19:07 | [qtp3213500-49] service.LoginServiceImpl (LoginServiceImpl.java:39) - Get Login information for checking login.
+INFO  | 2021-10-29 10:19:07 | [qtp3213500-49] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:83) - Execution completed
+INFO  | 2021-10-29 10:19:07 | [qtp3213500-49] service.LoginServiceImpl (LoginServiceImpl.java:33) - Get User information Chris.
+INFO  | 2021-10-29 10:19:07 | [qtp3213500-49] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:107) - Execution completed
+INFO  | 2021-10-29 10:19:07 | [qtp3213500-49] controller.LoginController (LoginController.java:29) - The login input found in our user database.
+INFO  | 2021-10-29 10:19:07 | [qtp3213500-24] service.EventServiceImpl (EventServiceImpl.java:37) - Get all Events for user 1.
+INFO  | 2021-10-29 10:19:08 | [qtp3213500-24] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:19:09 | [qtp3213500-24] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:19:09 | [qtp3213500-24] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:55) - Execution completed
+INFO  | 2021-10-29 10:19:09 | [qtp3213500-24] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:19:09 | [qtp3213500-24] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:19:10 | [qtp3213500-24] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:19:10 | [qtp3213500-24] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:19:10 | [qtp3213500-24] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:19:11 | [qtp3213500-24] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:19:13 | [qtp3213500-24] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:19:13 | [qtp3213500-24] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:19:14 | [qtp3213500-24] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:19:15 | [qtp3213500-24] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:19:15 | [qtp3213500-24] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:19:16 | [qtp3213500-24] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:19:17 | [qtp3213500-24] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:19:18 | [qtp3213500-24] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:19:19 | [qtp3213500-24] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:19:22 | [qtp3213500-24] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:48) - Execution completed
+INFO  | 2021-10-29 10:19:22 | [qtp3213500-24] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:19:24 | [qtp3213500-24] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:19:24 | [qtp3213500-24] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:19:25 | [qtp3213500-24] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:19:26 | [qtp3213500-24] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:19:27 | [qtp3213500-24] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:19:28 | [qtp3213500-24] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:19:28 | [qtp3213500-24] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:19:29 | [qtp3213500-24] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:19:30 | [qtp3213500-24] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:19:30 | [qtp3213500-24] controller.EventConntroller (EventConntroller.java:37) - Pull out all events for user 1.
+INFO  | 2021-10-29 10:19:30 | [qtp3213500-49] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:19:30 | [qtp3213500-49] controller.EventConntroller (EventConntroller.java:62) - Pull out user 1 information.
+INFO  | 2021-10-29 10:19:31 | [qtp3213500-24] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:19:31 | [qtp3213500-24] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:19:31 | [qtp3213500-24] controller.EventConntroller (EventConntroller.java:104) - Pull out user 1 information.
+INFO  | 2021-10-29 10:19:31 | [qtp3213500-49] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:19:31 | [qtp3213500-49] controller.EventConntroller (EventConntroller.java:83) - Pull out user 4 information.
+INFO  | 2021-10-29 10:19:46 | [qtp3213500-49] service.EventServiceImpl (EventServiceImpl.java:201) - Start update a Event
+INFO  | 2021-10-29 10:19:47 | [qtp3213500-49] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:49) - Execution completed
+INFO  | 2021-10-29 10:19:47 | [qtp3213500-49] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:19:48 | [qtp3213500-49] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:19:48 | [qtp3213500-49] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:19:48 | [qtp3213500-49] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:19:48 | [qtp3213500-49] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:19:49 | [qtp3213500-49] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:133) - Execution completed
+INFO  | 2021-10-29 10:19:49 | [qtp3213500-49] controller.EventConntroller (EventConntroller.java:151) - Update event for user 1 succeeded
+INFO  | 2021-10-29 10:20:19 | [qtp3213500-24] service.LoginServiceImpl (LoginServiceImpl.java:39) - Get Login information for checking login.
+INFO  | 2021-10-29 10:20:19 | [qtp3213500-24] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:83) - Execution completed
+INFO  | 2021-10-29 10:20:19 | [qtp3213500-24] service.LoginServiceImpl (LoginServiceImpl.java:33) - Get User information English.
+INFO  | 2021-10-29 10:20:20 | [qtp3213500-24] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:107) - Execution completed
+INFO  | 2021-10-29 10:20:20 | [qtp3213500-24] controller.LoginController (LoginController.java:29) - The login input found in our user database.
+INFO  | 2021-10-29 10:20:20 | [qtp3213500-28] service.LoginServiceImpl (LoginServiceImpl.java:39) - Get Login information for checking login.
+INFO  | 2021-10-29 10:20:20 | [qtp3213500-52] service.EventServiceImpl (EventServiceImpl.java:37) - Get all Events for user 4.
+INFO  | 2021-10-29 10:20:20 | [qtp3213500-28] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:83) - Execution completed
+INFO  | 2021-10-29 10:20:20 | [qtp3213500-28] service.LoginServiceImpl (LoginServiceImpl.java:33) - Get User information English.
+INFO  | 2021-10-29 10:20:20 | [qtp3213500-52] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:20:21 | [qtp3213500-28] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:107) - Execution completed
+INFO  | 2021-10-29 10:20:21 | [qtp3213500-28] controller.LoginController (LoginController.java:29) - The login input found in our user database.
+INFO  | 2021-10-29 10:20:21 | [qtp3213500-52] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:20:22 | [qtp3213500-52] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:55) - Execution completed
+INFO  | 2021-10-29 10:20:22 | [qtp3213500-52] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:20:23 | [qtp3213500-52] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:20:24 | [qtp3213500-52] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:20:24 | [qtp3213500-52] controller.EventConntroller (EventConntroller.java:37) - Pull out all events for user 4.
+INFO  | 2021-10-29 10:20:24 | [qtp3213500-51] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:20:24 | [qtp3213500-51] controller.EventConntroller (EventConntroller.java:62) - Pull out user 4 information.
+INFO  | 2021-10-29 10:20:25 | [qtp3213500-52] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:20:25 | [qtp3213500-52] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:20:25 | [qtp3213500-52] controller.EventConntroller (EventConntroller.java:104) - Pull out user 4 information.
+INFO  | 2021-10-29 10:20:25 | [qtp3213500-51] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:20:25 | [qtp3213500-51] controller.EventConntroller (EventConntroller.java:83) - Pull out user 3 information.
+INFO  | 2021-10-29 10:21:08 | [qtp3213500-50] service.EventServiceImpl (EventServiceImpl.java:201) - Start update a Event
+INFO  | 2021-10-29 10:21:09 | [qtp3213500-50] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:49) - Execution completed
+INFO  | 2021-10-29 10:21:09 | [qtp3213500-50] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:21:10 | [qtp3213500-50] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:21:10 | [qtp3213500-50] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:21:10 | [qtp3213500-50] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:21:11 | [qtp3213500-50] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:21:11 | [qtp3213500-50] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:133) - Execution completed
+INFO  | 2021-10-29 10:21:11 | [qtp3213500-50] controller.EventConntroller (EventConntroller.java:151) - Update event for user 4 succeeded
+INFO  | 2021-10-29 10:22:26 | [qtp3213500-27] service.EventServiceImpl (EventServiceImpl.java:167) - Start add a new Event
+INFO  | 2021-10-29 10:22:27 | [qtp3213500-27] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:22:27 | [qtp3213500-27] reposiory.GradeFormatRepoHBImpl (GradeFormatRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:22:28 | [qtp3213500-27] reposiory.EventTypeRepoHBImpl (EventTypeRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:22:28 | [qtp3213500-27] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:22:28 | [qtp3213500-27] service.EventServiceImpl (EventServiceImpl.java:191) - Your reimbursement exceeds the limit
+INFO  | 2021-10-29 10:22:29 | [qtp3213500-27] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:22:29 | [qtp3213500-27] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:33) - Execution completed
+INFO  | 2021-10-29 10:22:29 | [qtp3213500-27] controller.EventConntroller (EventConntroller.java:126) - Add events for user 4 succeeded
+INFO  | 2021-10-29 10:22:52 | [qtp3213500-21] service.EventServiceImpl (EventServiceImpl.java:37) - Get all Events for user 4.
+INFO  | 2021-10-29 10:22:53 | [qtp3213500-21] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:22:54 | [qtp3213500-21] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:22:55 | [qtp3213500-21] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:55) - Execution completed
+INFO  | 2021-10-29 10:22:55 | [qtp3213500-21] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:22:56 | [qtp3213500-21] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:22:57 | [qtp3213500-21] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:22:57 | [qtp3213500-21] controller.EventConntroller (EventConntroller.java:37) - Pull out all events for user 4.
+INFO  | 2021-10-29 10:22:57 | [qtp3213500-54] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:22:57 | [qtp3213500-54] controller.EventConntroller (EventConntroller.java:62) - Pull out user 4 information.
+INFO  | 2021-10-29 10:22:58 | [qtp3213500-56] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:22:58 | [qtp3213500-56] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:22:58 | [qtp3213500-56] controller.EventConntroller (EventConntroller.java:104) - Pull out user 4 information.
+INFO  | 2021-10-29 10:22:58 | [qtp3213500-54] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:22:58 | [qtp3213500-54] controller.EventConntroller (EventConntroller.java:83) - Pull out user 3 information.
+INFO  | 2021-10-29 10:23:12 | [qtp3213500-54] service.LoginServiceImpl (LoginServiceImpl.java:39) - Get Login information for checking login.
+INFO  | 2021-10-29 10:23:12 | [qtp3213500-54] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:83) - Execution completed
+INFO  | 2021-10-29 10:23:12 | [qtp3213500-54] service.LoginServiceImpl (LoginServiceImpl.java:33) - Get User information Chris.
+INFO  | 2021-10-29 10:23:13 | [qtp3213500-54] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:107) - Execution completed
+INFO  | 2021-10-29 10:23:13 | [qtp3213500-54] controller.LoginController (LoginController.java:29) - The login input found in our user database.
+INFO  | 2021-10-29 10:23:13 | [qtp3213500-56] service.EventServiceImpl (EventServiceImpl.java:37) - Get all Events for user 1.
+INFO  | 2021-10-29 10:23:14 | [qtp3213500-56] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:23:14 | [qtp3213500-56] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:23:15 | [qtp3213500-56] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:55) - Execution completed
+INFO  | 2021-10-29 10:23:15 | [qtp3213500-56] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:23:15 | [qtp3213500-56] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:23:16 | [qtp3213500-56] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:23:16 | [qtp3213500-56] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:23:16 | [qtp3213500-56] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:23:17 | [qtp3213500-56] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:23:18 | [qtp3213500-56] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:23:20 | [qtp3213500-56] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:23:21 | [qtp3213500-56] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:23:21 | [qtp3213500-56] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:23:22 | [qtp3213500-56] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:23:23 | [qtp3213500-56] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:23:24 | [qtp3213500-56] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:23:25 | [qtp3213500-56] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:23:25 | [qtp3213500-56] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:23:28 | [qtp3213500-56] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:48) - Execution completed
+INFO  | 2021-10-29 10:23:28 | [qtp3213500-56] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:23:30 | [qtp3213500-56] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:23:30 | [qtp3213500-56] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:23:32 | [qtp3213500-56] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:23:33 | [qtp3213500-56] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:23:34 | [qtp3213500-56] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:23:34 | [qtp3213500-56] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:23:35 | [qtp3213500-56] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:23:36 | [qtp3213500-56] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:23:37 | [qtp3213500-56] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:23:37 | [qtp3213500-56] controller.EventConntroller (EventConntroller.java:37) - Pull out all events for user 1.
+INFO  | 2021-10-29 10:23:37 | [qtp3213500-54] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:23:37 | [qtp3213500-54] controller.EventConntroller (EventConntroller.java:62) - Pull out user 1 information.
+INFO  | 2021-10-29 10:23:37 | [qtp3213500-56] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:23:38 | [qtp3213500-56] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:23:38 | [qtp3213500-56] controller.EventConntroller (EventConntroller.java:104) - Pull out user 1 information.
+INFO  | 2021-10-29 10:23:38 | [qtp3213500-54] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:23:38 | [qtp3213500-54] controller.EventConntroller (EventConntroller.java:83) - Pull out user 4 information.
+INFO  | 2021-10-29 10:23:56 | [qtp3213500-54] service.EventServiceImpl (EventServiceImpl.java:201) - Start update a Event
+INFO  | 2021-10-29 10:23:56 | [qtp3213500-54] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:49) - Execution completed
+INFO  | 2021-10-29 10:23:56 | [qtp3213500-54] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:23:56 | [qtp3213500-54] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:23:57 | [qtp3213500-54] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:23:57 | [qtp3213500-54] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:23:58 | [qtp3213500-54] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:23:58 | [qtp3213500-54] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:133) - Execution completed
+INFO  | 2021-10-29 10:23:58 | [qtp3213500-54] controller.EventConntroller (EventConntroller.java:151) - Update event for user 1 succeeded
+INFO  | 2021-10-29 10:24:16 | [qtp3213500-54] service.EventServiceImpl (EventServiceImpl.java:201) - Start update a Event
+INFO  | 2021-10-29 10:24:17 | [qtp3213500-54] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:49) - Execution completed
+INFO  | 2021-10-29 10:24:17 | [qtp3213500-54] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:24:18 | [qtp3213500-54] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:24:18 | [qtp3213500-54] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:24:18 | [qtp3213500-54] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:24:18 | [qtp3213500-54] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:24:18 | [qtp3213500-54] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:133) - Execution completed
+INFO  | 2021-10-29 10:24:18 | [qtp3213500-54] controller.EventConntroller (EventConntroller.java:151) - Update event for user 1 succeeded
+INFO  | 2021-10-29 10:24:52 | [qtp3213500-53] service.LoginServiceImpl (LoginServiceImpl.java:39) - Get Login information for checking login.
+INFO  | 2021-10-29 10:24:53 | [qtp3213500-53] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:83) - Execution completed
+INFO  | 2021-10-29 10:24:53 | [qtp3213500-53] service.LoginServiceImpl (LoginServiceImpl.java:33) - Get User information English.
+INFO  | 2021-10-29 10:24:53 | [qtp3213500-53] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:107) - Execution completed
+INFO  | 2021-10-29 10:24:53 | [qtp3213500-53] controller.LoginController (LoginController.java:29) - The login input found in our user database.
+INFO  | 2021-10-29 10:24:53 | [qtp3213500-31] service.LoginServiceImpl (LoginServiceImpl.java:39) - Get Login information for checking login.
+INFO  | 2021-10-29 10:24:53 | [qtp3213500-47] service.LoginServiceImpl (LoginServiceImpl.java:39) - Get Login information for checking login.
+INFO  | 2021-10-29 10:24:53 | [qtp3213500-41] service.EventServiceImpl (EventServiceImpl.java:37) - Get all Events for user 4.
+INFO  | 2021-10-29 10:24:53 | [qtp3213500-31] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:83) - Execution completed
+INFO  | 2021-10-29 10:24:53 | [qtp3213500-31] service.LoginServiceImpl (LoginServiceImpl.java:33) - Get User information English.
+INFO  | 2021-10-29 10:24:53 | [qtp3213500-47] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:83) - Execution completed
+INFO  | 2021-10-29 10:24:53 | [qtp3213500-47] service.LoginServiceImpl (LoginServiceImpl.java:33) - Get User information English.
+INFO  | 2021-10-29 10:24:54 | [qtp3213500-31] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:107) - Execution completed
+INFO  | 2021-10-29 10:24:54 | [qtp3213500-47] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:107) - Execution completed
+INFO  | 2021-10-29 10:24:54 | [qtp3213500-31] controller.LoginController (LoginController.java:29) - The login input found in our user database.
+INFO  | 2021-10-29 10:24:54 | [qtp3213500-47] controller.LoginController (LoginController.java:29) - The login input found in our user database.
+INFO  | 2021-10-29 10:24:55 | [qtp3213500-41] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:24:56 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:24:56 | [qtp3213500-41] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:55) - Execution completed
+INFO  | 2021-10-29 10:24:56 | [qtp3213500-41] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:24:57 | [qtp3213500-41] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:24:59 | [qtp3213500-41] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:24:59 | [qtp3213500-41] controller.EventConntroller (EventConntroller.java:37) - Pull out all events for user 4.
+INFO  | 2021-10-29 10:24:59 | [qtp3213500-51] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:24:59 | [qtp3213500-51] controller.EventConntroller (EventConntroller.java:62) - Pull out user 4 information.
+INFO  | 2021-10-29 10:24:59 | [qtp3213500-41] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:25:00 | [qtp3213500-41] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:25:00 | [qtp3213500-41] controller.EventConntroller (EventConntroller.java:104) - Pull out user 4 information.
+INFO  | 2021-10-29 10:25:00 | [qtp3213500-51] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:25:00 | [qtp3213500-51] controller.EventConntroller (EventConntroller.java:83) - Pull out user 3 information.
+INFO  | 2021-10-29 10:25:11 | [qtp3213500-51] service.EventServiceImpl (EventServiceImpl.java:392) - Start delete a Event
+INFO  | 2021-10-29 10:25:12 | [qtp3213500-51] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:49) - Execution completed
+INFO  | 2021-10-29 10:25:12 | [qtp3213500-51] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:25:12 | [qtp3213500-51] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:153) - Execution completed
+INFO  | 2021-10-29 10:25:12 | [qtp3213500-51] controller.EventConntroller (EventConntroller.java:174) - Delete event for user 4 succeeded
+INFO  | 2021-10-29 10:25:40 | [main] hibernate.Version (Version.java:44) - HHH000412: Hibernate ORM core version 5.5.3.Final
+INFO  | 2021-10-29 10:25:40 | [main] java.JavaReflectionManager (JavaReflectionManager.java:56) - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+WARN  | 2021-10-29 10:25:40 | [main] internal.DriverManagerConnectionProviderImpl (DriverManagerConnectionProviderImpl.java:72) - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+INFO  | 2021-10-29 10:25:40 | [main] internal.DriverManagerConnectionProviderImpl (DriverManagerConnectionProviderImpl.java:115) - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://database-1.cdzv9xon8e1s.us-east-2.rds.amazonaws.com/postgres]
+INFO  | 2021-10-29 10:25:40 | [main] internal.DriverManagerConnectionProviderImpl (DriverManagerConnectionProviderImpl.java:124) - HHH10001001: Connection properties: {user=whyrchris, password=****}
+INFO  | 2021-10-29 10:25:40 | [main] internal.DriverManagerConnectionProviderImpl (DriverManagerConnectionProviderImpl.java:129) - HHH10001003: Autocommit mode: false
+INFO  | 2021-10-29 10:25:40 | [main] internal.DriverManagerConnectionProviderImpl$PooledConnections (DriverManagerConnectionProviderImpl.java:274) - HHH000115: Hibernate connection pool size: 20 (min=1)
+INFO  | 2021-10-29 10:25:42 | [main] dialect.Dialect (Dialect.java:175) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+INFO  | 2021-10-29 10:25:43 | [main] internal.DdlTransactionIsolatorNonJtaImpl (DdlTransactionIsolatorNonJtaImpl.java:48) - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@97d0c06] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  | 2021-10-29 10:25:44 | [main] internal.JtaPlatformInitiator (JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  | 2021-10-29 10:25:44 | [main] reposiory.GradeFormatRepoHBImpl (GradeFormatRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:25:44 | [main] reposiory.EventTypeRepoHBImpl (EventTypeRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:25:44 | [main] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:25:45 | [main] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:25:45 | [main] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:31) - Execution completed
+INFO  | 2021-10-29 10:25:46 | [main] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:25:46 | [main] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:91) - Execution completed
+INFO  | 2021-10-29 10:25:46 | [main] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:111) - Execution completed
+INFO  | 2021-10-29 10:25:46 | [main] service.EventServiceImpl (EventServiceImpl.java:37) - Get all Events for user 8.
+INFO  | 2021-10-29 10:25:46 | [main] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:25:47 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:25:47 | [main] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:55) - Execution completed
+INFO  | 2021-10-29 10:25:48 | [main] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:25:48 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:25:49 | [main] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:25:49 | [main] service.EventServiceImpl (EventServiceImpl.java:37) - Get all Events for user 1.
+INFO  | 2021-10-29 10:25:49 | [main] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:25:50 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:25:50 | [main] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:55) - Execution completed
+INFO  | 2021-10-29 10:25:50 | [main] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:25:51 | [main] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:25:51 | [main] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:25:51 | [main] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:25:52 | [main] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:25:53 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:25:53 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:25:55 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:25:55 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:25:56 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:25:56 | [main] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:25:57 | [main] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:25:58 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:25:59 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:26:00 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:26:03 | [main] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:48) - Execution completed
+INFO  | 2021-10-29 10:26:04 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:26:04 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:26:06 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:26:07 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:26:08 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:26:09 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:26:10 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:26:10 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:26:11 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:26:12 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:26:12 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:33) - Execution completed
+INFO  | 2021-10-29 10:26:12 | [main] service.EventServiceImpl (EventServiceImpl.java:392) - Start delete a Event
+INFO  | 2021-10-29 10:26:12 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:49) - Execution completed
+INFO  | 2021-10-29 10:26:13 | [main] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:26:13 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:153) - Execution completed
+INFO  | 2021-10-29 10:26:13 | [main] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:29) - Execution completed
+INFO  | 2021-10-29 10:26:14 | [main] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:26:14 | [main] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:45) - Execution completed
+INFO  | 2021-10-29 10:26:15 | [main] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:81) - Execution completed
+INFO  | 2021-10-29 10:26:15 | [main] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:101) - Execution completed
+INFO  | 2021-10-29 10:26:15 | [main] service.EventServiceImpl (EventServiceImpl.java:167) - Start add a new Event
+INFO  | 2021-10-29 10:26:15 | [main] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:26:15 | [main] reposiory.GradeFormatRepoHBImpl (GradeFormatRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:26:15 | [main] reposiory.EventTypeRepoHBImpl (EventTypeRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:26:16 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:26:16 | [main] service.EventServiceImpl (EventServiceImpl.java:187) - Add Event succeed
+INFO  | 2021-10-29 10:26:17 | [main] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:26:17 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:33) - Execution completed
+INFO  | 2021-10-29 10:26:17 | [main] service.EventServiceImpl (EventServiceImpl.java:201) - Start update a Event
+INFO  | 2021-10-29 10:26:17 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:49) - Execution completed
+INFO  | 2021-10-29 10:26:18 | [main] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:26:18 | [main] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:26:19 | [main] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:26:19 | [main] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:26:19 | [main] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:26:19 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:133) - Execution completed
+INFO  | 2021-10-29 10:26:19 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:153) - Execution completed
+INFO  | 2021-10-29 10:26:19 | [main] service.LoginServiceImpl (LoginServiceImpl.java:39) - Get Login information for checking login.
+INFO  | 2021-10-29 10:26:19 | [main] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:83) - Execution completed
+INFO  | 2021-10-29 10:26:19 | [main] service.LoginServiceImpl (LoginServiceImpl.java:33) - Get User information CS.
+INFO  | 2021-10-29 10:26:20 | [main] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:107) - Execution completed
+INFO  | 2021-10-29 10:26:20 | [main] service.LoginServiceImpl (LoginServiceImpl.java:51) - Create a new Login 123.
+INFO  | 2021-10-29 10:26:20 | [main] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:30) - Execution completed
+INFO  | 2021-10-29 10:26:20 | [main] service.LoginServiceImpl (LoginServiceImpl.java:45) - Get information of all Logins.
+INFO  | 2021-10-29 10:26:21 | [main] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:46) - Execution completed
+INFO  | 2021-10-29 10:26:21 | [main] service.LoginServiceImpl (LoginServiceImpl.java:27) - Create a new Login 1.
+INFO  | 2021-10-29 10:26:21 | [main] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:62) - Execution completed
+INFO  | 2021-10-29 10:26:21 | [main] service.LoginServiceImpl (LoginServiceImpl.java:39) - Get Login information for checking login.
+INFO  | 2021-10-29 10:26:21 | [main] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:83) - Execution completed
+INFO  | 2021-10-29 10:26:21 | [main] service.LoginServiceImpl (LoginServiceImpl.java:27) - Create a new Login 11.
+INFO  | 2021-10-29 10:26:22 | [main] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:62) - Execution completed
+INFO  | 2021-10-29 10:26:22 | [main] service.LoginServiceImpl (LoginServiceImpl.java:58) - Update information of Login 123.
+INFO  | 2021-10-29 10:26:22 | [main] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:103) - Execution completed
+INFO  | 2021-10-29 10:26:22 | [main] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:62) - Execution completed
+INFO  | 2021-10-29 10:26:23 | [main] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:123) - Execution completed
+INFO  | 2021-10-29 10:26:25 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:65) - Execution completed
+INFO  | 2021-10-29 10:26:25 | [main] service.EventServiceImpl (EventServiceImpl.java:37) - Get all Events for user 3.
+INFO  | 2021-10-29 10:26:26 | [main] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:26:26 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:26:27 | [main] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:26:27 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:133) - Execution completed
+INFO  | 2021-10-29 10:26:27 | [main] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:55) - Execution completed
+INFO  | 2021-10-29 10:26:27 | [main] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:26:28 | [main] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:26:29 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:26:30 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:26:30 | [main] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:26:31 | [main] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:26:32 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:26:32 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:26:33 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-10-29 10:26:34 | [main] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:26:34 | [main] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:30) - Execution completed
+INFO  | 2021-10-29 10:26:34 | [main] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:26:35 | [main] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:46) - Execution completed
+INFO  | 2021-10-29 10:26:36 | [main] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:26:36 | [main] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:86) - Execution completed
+INFO  | 2021-10-29 10:26:37 | [main] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:106) - Execution completed
+INFO  | 2021-10-29 10:26:37 | [main] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:30) - Execution completed
+INFO  | 2021-10-29 10:26:37 | [main] reposiory.DepartmentRepoHBImpl (DepartmentRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:26:37 | [main] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:32) - Execution completed
+INFO  | 2021-10-29 10:26:38 | [main] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:127) - Execution completed
+INFO  | 2021-10-29 10:26:38 | [main] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:147) - Execution completed
+INFO  | 2021-10-29 10:26:38 | [main] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:123) - Execution completed
+INFO  | 2021-10-29 10:26:39 | [main] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-10-29 10:26:39 | [main] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:26:39 | [main] reposiory.EventTypeRepoHBImpl (EventTypeRepoHBImpl.java:29) - Execution completed
+INFO  | 2021-10-29 10:26:40 | [main] reposiory.EventTypeRepoHBImpl (EventTypeRepoHBImpl.java:45) - Execution completed
+INFO  | 2021-10-29 10:26:40 | [main] reposiory.EventTypeRepoHBImpl (EventTypeRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:26:40 | [main] reposiory.EventTypeRepoHBImpl (EventTypeRepoHBImpl.java:81) - Execution completed
+INFO  | 2021-10-29 10:26:41 | [main] reposiory.EventTypeRepoHBImpl (EventTypeRepoHBImpl.java:101) - Execution completed
+INFO  | 2021-10-29 10:26:41 | [main] reposiory.GradeFormatRepoHBImpl (GradeFormatRepoHBImpl.java:29) - Execution completed
+INFO  | 2021-10-29 10:26:41 | [main] reposiory.GradeFormatRepoHBImpl (GradeFormatRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:26:42 | [main] reposiory.GradeFormatRepoHBImpl (GradeFormatRepoHBImpl.java:45) - Execution completed
+INFO  | 2021-10-29 10:26:42 | [main] reposiory.GradeFormatRepoHBImpl (GradeFormatRepoHBImpl.java:81) - Execution completed
+INFO  | 2021-10-29 10:26:42 | [main] reposiory.GradeFormatRepoHBImpl (GradeFormatRepoHBImpl.java:101) - Execution completed
+INFO  | 2021-10-29 10:26:43 | [main] reposiory.DepartmentRepoHBImpl (DepartmentRepoHBImpl.java:29) - Execution completed
+INFO  | 2021-10-29 10:26:43 | [main] reposiory.DepartmentRepoHBImpl (DepartmentRepoHBImpl.java:45) - Execution completed
+INFO  | 2021-10-29 10:26:44 | [main] reposiory.DepartmentRepoHBImpl (DepartmentRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-10-29 10:26:44 | [main] reposiory.DepartmentRepoHBImpl (DepartmentRepoHBImpl.java:81) - Execution completed
+INFO  | 2021-10-29 10:26:44 | [main] reposiory.DepartmentRepoHBImpl (DepartmentRepoHBImpl.java:101) - Execution completed
+INFO  | 2021-10-29 10:26:44 | [main] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-10-29 10:26:45 | [main] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-10-29 10:26:45 | [main] service.EventServiceImpl (EventServiceImpl.java:31) - Get information of Event 1.
+INFO  | 2021-10-29 10:26:45 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:49) - Execution completed
+INFO  | 2021-10-29 10:26:47 | [main] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:89) - Execution completed

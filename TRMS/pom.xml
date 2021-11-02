@@ -70,17 +70,17 @@
             <version>5.5.3.Final</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>3.8.1</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.seleniumhq.selenium</groupId>-->
+<!--            <artifactId>selenium-java</artifactId>-->
+<!--            <version>3.8.1</version>-->
+<!--        </dependency>-->
 
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-chrome-driver</artifactId>
-            <version>3.8.1</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.seleniumhq.selenium</groupId>-->
+<!--            <artifactId>selenium-chrome-driver</artifactId>-->
+<!--            <version>3.8.1</version>-->
+<!--        </dependency>-->
 
 <!--        &lt;!&ndash; https://mvnrepository.com/artifact/info.cukes/cucumber-java &ndash;&gt;-->
 <!--        <dependency>-->
