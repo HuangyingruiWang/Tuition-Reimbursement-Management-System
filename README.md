@@ -19,8 +19,7 @@ The purpose of TRMS is to provide a system that encourages quality knowledge gro
 
 ## Features
 
-List of features ready and TODOs for future development
-* Awesome feature 1
+* 
 * Awesome feature 2
 * Awesome feature 3
 
