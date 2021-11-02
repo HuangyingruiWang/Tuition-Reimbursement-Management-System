@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Main Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <style>
+        *{
+            text-align: center;
+            border: 10px;
+            margin: 10px;
+        }
+        /* body{
+            background-image: url("background.jpg");
+        } */
+        .div {
+          text-align: center;
+          border: 1px solid coral;
+          height: auto;
+          width: auto;
+        }
+        collapse.tc{
+          text-align: center;
+        }
+    </style>
+</head>
+<body onload="getAllEvents()">
+  <div>
+    <table class="table table-hover">
+      <thead>
+              <td id="IndexC" class="table-success"></td>
+              <td id="StartDateC" class="table-success">Start Date: </td>
+              <td id="DescriptionC" class="table-success">Description: </td>
+              <td id="CostC" class="table-success">Cost: </td>
+              <td id="ProjectedReimbursementC" class="table-success">Projected Reimbursement: </td>
+              <td id="CutoffGradeC" class="table-success">Cutoff Grade: </td>
+              <td id="EventTypeC" class="table-success">Event Type: </td>
+              <td id="WorkRelatedC" class="table-success">Work Related Justification: </td>
+              <td id="StatusC" class="table-success">Status: </td>
+              <td id="OptionC">Option: </td>
+      </thead>
+      <tbody id="allEventsTable">
+      </tbody>
+    </table>
+  </div>
+  <br>
+  <p>
+    <button id="newSubmitButton" style="float:center" class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseConnections" aria-expanded="false" aria-controls="collapseWidthExample">
+      Submit a new Tuition Reimbursement Form
+    </button>
+    <button id="logoutButton" style="float:center" class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseConnections" aria-expanded="false" aria-controls="collapseWidthExample">
+      Log Out
+    </button>
+  </p>
+</body>
+<script src="pageload.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+</html>
