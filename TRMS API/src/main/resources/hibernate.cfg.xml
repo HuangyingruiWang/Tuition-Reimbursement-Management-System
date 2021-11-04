@@ -12,17 +12,17 @@
             org.hibernate.dialect.PostgreSQL10Dialect
         </property>
 
-        <property name="hibernate.connection.url">
-            jdbc:postgresql://database-1.cdzv9xon8e1s.us-east-2.rds.amazonaws.com/postgres
-        </property>
+<!--        <property name="hibernate.connection.url">-->
+<!--            jdbc:postgresql://database-1.cdzv9xon8e1s.us-east-2.rds.amazonaws.com/postgres-->
+<!--        </property>-->
 
-        <property name="hibernate.connection.username">
-            whyrchris
-        </property>
+<!--        <property name="hibernate.connection.username">-->
+<!--            whyrchris-->
+<!--        </property>-->
 
-        <property name="hibernate.connection.password">
-            Chrispxq520.
-        </property>
+<!--        <property name="hibernate.connection.password">-->
+<!--            Chrispxq520.-->
+<!--        </property>-->
 
         <!-- Optional Properties -->
         <property name="show_sql">
