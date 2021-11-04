@@ -31,8 +31,8 @@ The purpose of TRMS is to provide a system that encourages quality knowledge gro
 
 To-do list:
 * Implement the files stored
-   ** Users can provide approval documents before they submit a new Form, and the corresponding approval process can be skipped.
-   ** An employee is able to upload real documents as a response to the leader's request.
+   * Users can provide approval documents before they submit a new Form, and the corresponding approval process can be skipped.
+   * An employee is able to upload real documents as a response to the leader's request.
 * Add more CSS to my HTML web page, so users can have a better user experience.
 * Edit some of my Java Codes to reduce the page load waiting time, so users can have a better browser experience.
 
