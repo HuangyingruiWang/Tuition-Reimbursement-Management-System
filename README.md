@@ -45,18 +45,19 @@ git clone https://github.com/HuangyingruiWang/Tuition-Reimbursement-Management-S
 * [JDK](<https://www.oracle.com/java/technologies/downloads/#java8>)
   * Install the correct version of Java 8 for your computer system
 
-* To started the Application, you will need
-  * [IntelliJ](<https://www.jetbrains.com/idea/download/#section=windows>) + [Maven](https://maven.apache.org/download.cgi)
+* [IntelliJ](<https://www.jetbrains.com/idea/download/#section=windows>) + [Maven](https://maven.apache.org/download.cgi)
   * Install the latest version of IntelliJ and Maven. 
   * Extract Maven folder to your C drive.
   * Open the Application folder on IntelliJ IDE, then right click on the project name -> Maven -> reload project. 
 
-- All the `code` required to get started
-- Images of what it should look like
-
 ## Usage
-
-> Here, you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
+1. Set Environment Variables for DB_URL, DB_USERNAME, DB_PASSWORD
+   * In Windows 10: click the start button on your keyboard or at the bottom left corner of your screen, type environment variables.
+   * Click on the Edit the system environment variables. On the System Properties Window, click on the Environment Variables button. 
+   * Under System variables, create new variables with the correct variable names from above, and variable values as your database-connection information.
+3. Run Java Application on IntelliJ.
+4. Run Login.html page that is in the Frontend folder.
+5. 
 
 ## Contributors
 
