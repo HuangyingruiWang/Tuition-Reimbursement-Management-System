@@ -43,13 +43,13 @@ git clone https://github.com/HuangyingruiWang/Tuition-Reimbursement-Management-S
 ```
 ## Pre-Installed 
 * [JDK](<https://www.oracle.com/java/technologies/downloads/#java8>)
-** Install the correct version of Java 8 for your computer system
+  * Install the correct version of Java 8 for your computer system
 
 * To started the Application, you will need
-** [IntelliJ](<https://www.jetbrains.com/idea/download/#section=windows>) + [Maven](https://maven.apache.org/download.cgi)
-** Install the latest version of IntelliJ and Maven. 
-** Extract Maven folder to your C drive.
-** Open the Application folder on IntelliJ IDE, then right click on the project name -> Maven -> reload project. 
+  * [IntelliJ](<https://www.jetbrains.com/idea/download/#section=windows>) + [Maven](https://maven.apache.org/download.cgi)
+  * Install the latest version of IntelliJ and Maven. 
+  * Extract Maven folder to your C drive.
+  * Open the Application folder on IntelliJ IDE, then right click on the project name -> Maven -> reload project. 
 
 - All the `code` required to get started
 - Images of what it should look like
