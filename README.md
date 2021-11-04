@@ -37,7 +37,7 @@ To-do list:
 * Edit some of my Java Codes to reduce the page load waiting time, so users can have a better browser experience.
 
 ## Getting Started
-To clone this application to your local computer
+To clone this Repository to your local computer
 ```
 git clone https://github.com/HuangyingruiWang/Tuition-Reimbursement-Management-System.git
 ```
