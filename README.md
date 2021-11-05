@@ -80,3 +80,22 @@ Grade_Format  | Holds grade format information, like grade format name and cut-o
 Status  | Holds Status information, like the status name.
 Events  | Holds events information, like start date, cost... and four references to grade format, event type, status, and user.
 Files  |  Holds all uploaded files. Not implemented.
+
+## End Point
+* Login Validation:
+GET : `/login`
+* Request the user information for the current login account
+GET : `/users/user_id`
+* Request the direct supervisor information for the current login account
+GET : `/supervisors/user_id`
+* Request the department header information for the current login account
+GET : `/heads/department_id`
+* Request all events information for the current login account
+GET : `/users/user_id/events`
+* Request to create a new event for the current login account
+POST : `/users/user_id/events`
+* Request to update a event for the current login account
+PUT : `/users/user_id/events/event_id`
+* Request to delete event for the current login account
+DELETE : `/users/user_id/events/event_id`
+
