@@ -17621,3 +17621,63 @@ INFO  | 2021-11-02 09:36:54 | [main] dialect.Dialect (Dialect.java:175) - HHH000
 INFO  | 2021-11-02 09:36:55 | [main] internal.DdlTransactionIsolatorNonJtaImpl (DdlTransactionIsolatorNonJtaImpl.java:48) - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2d3ef181] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
 INFO  | 2021-11-02 09:36:55 | [main] internal.JtaPlatformInitiator (JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 INFO  | 2021-11-02 09:36:55 | [main] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:62) - Execution completed
+INFO  | 2021-11-02 13:25:21 | [main] hibernate.Version (Version.java:44) - HHH000412: Hibernate ORM core version 5.5.3.Final
+INFO  | 2021-11-02 13:25:22 | [main] java.JavaReflectionManager (JavaReflectionManager.java:56) - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+WARN  | 2021-11-02 13:25:22 | [main] internal.DriverManagerConnectionProviderImpl (DriverManagerConnectionProviderImpl.java:72) - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+INFO  | 2021-11-02 13:25:22 | [main] internal.DriverManagerConnectionProviderImpl (DriverManagerConnectionProviderImpl.java:115) - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://database-1.cdzv9xon8e1s.us-east-2.rds.amazonaws.com/postgres]
+INFO  | 2021-11-02 13:25:22 | [main] internal.DriverManagerConnectionProviderImpl (DriverManagerConnectionProviderImpl.java:124) - HHH10001001: Connection properties: {user=whyrchris, password=****}
+INFO  | 2021-11-02 13:25:22 | [main] internal.DriverManagerConnectionProviderImpl (DriverManagerConnectionProviderImpl.java:129) - HHH10001003: Autocommit mode: false
+INFO  | 2021-11-02 13:25:22 | [main] internal.DriverManagerConnectionProviderImpl$PooledConnections (DriverManagerConnectionProviderImpl.java:274) - HHH000115: Hibernate connection pool size: 20 (min=1)
+INFO  | 2021-11-02 13:25:23 | [main] dialect.Dialect (Dialect.java:175) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+INFO  | 2021-11-02 13:25:23 | [main] internal.DdlTransactionIsolatorNonJtaImpl (DdlTransactionIsolatorNonJtaImpl.java:48) - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2d3ef181] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+INFO  | 2021-11-02 13:25:23 | [main] internal.JtaPlatformInitiator (JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  | 2021-11-02 13:25:24 | [main] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:62) - Execution completed
+INFO  | 2021-11-02 13:26:26 | [qtp1690287238-43] service.LoginServiceImpl (LoginServiceImpl.java:39) - Get Login information for checking login.
+INFO  | 2021-11-02 13:26:26 | [qtp1690287238-43] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:83) - Execution completed
+INFO  | 2021-11-02 13:26:26 | [qtp1690287238-43] service.LoginServiceImpl (LoginServiceImpl.java:33) - Get User information English.
+INFO  | 2021-11-02 13:26:27 | [qtp1690287238-43] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:107) - Execution completed
+INFO  | 2021-11-02 13:26:27 | [qtp1690287238-43] controller.LoginController (LoginController.java:29) - The login input found in our user database.
+INFO  | 2021-11-02 13:26:27 | [qtp1690287238-45] service.LoginServiceImpl (LoginServiceImpl.java:39) - Get Login information for checking login.
+INFO  | 2021-11-02 13:26:27 | [qtp1690287238-42] service.EventServiceImpl (EventServiceImpl.java:37) - Get all Events for user 4.
+INFO  | 2021-11-02 13:26:27 | [qtp1690287238-45] reposiory.LoginRepoHBImpl (LoginRepoHBImpl.java:83) - Execution completed
+INFO  | 2021-11-02 13:26:27 | [qtp1690287238-45] service.LoginServiceImpl (LoginServiceImpl.java:33) - Get User information English.
+INFO  | 2021-11-02 13:26:27 | [qtp1690287238-45] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:107) - Execution completed
+INFO  | 2021-11-02 13:26:27 | [qtp1690287238-45] controller.LoginController (LoginController.java:29) - The login input found in our user database.
+INFO  | 2021-11-02 13:26:27 | [qtp1690287238-42] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-11-02 13:26:28 | [qtp1690287238-42] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-11-02 13:26:28 | [qtp1690287238-42] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-11-02 13:26:28 | [qtp1690287238-42] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:133) - Execution completed
+INFO  | 2021-11-02 13:26:28 | [qtp1690287238-42] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-11-02 13:26:28 | [qtp1690287238-42] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:133) - Execution completed
+INFO  | 2021-11-02 13:26:28 | [qtp1690287238-42] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-11-02 13:26:29 | [qtp1690287238-42] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:133) - Execution completed
+INFO  | 2021-11-02 13:26:29 | [qtp1690287238-42] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:133) - Execution completed
+INFO  | 2021-11-02 13:26:29 | [qtp1690287238-42] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:55) - Execution completed
+INFO  | 2021-11-02 13:26:29 | [qtp1690287238-42] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-11-02 13:26:29 | [qtp1690287238-42] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-11-02 13:26:30 | [qtp1690287238-42] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-11-02 13:26:30 | [qtp1690287238-42] controller.EventConntroller (EventConntroller.java:40) - No events in database for user 4.
+INFO  | 2021-11-02 13:27:37 | [qtp1690287238-52] service.EventServiceImpl (EventServiceImpl.java:37) - Get all Events for user 4.
+INFO  | 2021-11-02 13:27:37 | [qtp1690287238-52] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-11-02 13:27:39 | [qtp1690287238-52] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-11-02 13:27:39 | [qtp1690287238-52] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:55) - Execution completed
+INFO  | 2021-11-02 13:27:40 | [qtp1690287238-52] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-11-02 13:27:41 | [qtp1690287238-52] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-11-02 13:27:43 | [qtp1690287238-52] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-11-02 13:27:43 | [qtp1690287238-52] controller.EventConntroller (EventConntroller.java:37) - Pull out all events for user 4.
+INFO  | 2021-11-02 13:27:43 | [qtp1690287238-28] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-11-02 13:27:43 | [qtp1690287238-28] controller.EventConntroller (EventConntroller.java:62) - Pull out user 4 information.
+INFO  | 2021-11-02 13:27:43 | [qtp1690287238-24] reposiory.SupervisorRepoHBImpl (SupervisorRepoHBImpl.java:71) - Execution completed
+INFO  | 2021-11-02 13:27:44 | [qtp1690287238-24] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-11-02 13:27:44 | [qtp1690287238-24] controller.EventConntroller (EventConntroller.java:104) - Pull out user 4 information.
+INFO  | 2021-11-02 13:27:44 | [qtp1690287238-41] reposiory.HeadRepoHBImpl (HeadRepoHBImpl.java:66) - Execution completed
+INFO  | 2021-11-02 13:27:44 | [qtp1690287238-41] controller.EventConntroller (EventConntroller.java:83) - Pull out user 3 information.
+INFO  | 2021-11-02 13:28:51 | [qtp1690287238-42] service.EventServiceImpl (EventServiceImpl.java:167) - Start add a new Event
+INFO  | 2021-11-02 13:28:51 | [qtp1690287238-42] reposiory.UserRepoHBImpl (UserRepoHBImpl.java:87) - Execution completed
+INFO  | 2021-11-02 13:28:51 | [qtp1690287238-42] reposiory.GradeFormatRepoHBImpl (GradeFormatRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-11-02 13:28:51 | [qtp1690287238-42] reposiory.EventTypeRepoHBImpl (EventTypeRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-11-02 13:28:52 | [qtp1690287238-42] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:113) - Execution completed
+INFO  | 2021-11-02 13:28:52 | [qtp1690287238-42] service.EventServiceImpl (EventServiceImpl.java:191) - Your reimbursement exceeds the limit
+INFO  | 2021-11-02 13:28:52 | [qtp1690287238-42] reposiory.StatusRepoHBImpl (StatusRepoHBImpl.java:61) - Execution completed
+INFO  | 2021-11-02 13:28:52 | [qtp1690287238-42] reposiory.EventRepoHBImpl (EventRepoHBImpl.java:33) - Execution completed
+INFO  | 2021-11-02 13:28:52 | [qtp1690287238-42] controller.EventConntroller (EventConntroller.java:126) - Add events for user 4 succeeded

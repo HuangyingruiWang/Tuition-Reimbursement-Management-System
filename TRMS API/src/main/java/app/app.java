@@ -34,16 +34,10 @@ public class app {
         //Run Javalin
         app.start(5432);
         loginRepo.getLogin(0);
-//        repoTest();
 
     }
 
     private static void establishRoutes(Javalin app) {
-        //Tell Javalin which routes/endpoints Javalin will manage
-        app.get("/hello", (ctx) -> ctx.result("Hello World!"));
-        //Establish a route to the 'landing' page.
-        app.get("/", (ctx) -> ctx.result("Welcome to Our Movie App"));
-
         addLoginRoutes(app);
         addEventRoutes(app);
     }

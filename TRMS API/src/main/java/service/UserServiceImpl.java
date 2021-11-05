@@ -32,24 +32,4 @@ public class UserServiceImpl implements UserService{
         return ur.getUser(sr.getSupervisor(id).getSupervisors_id());
     }
 
-//    @Override
-//    public List<User> getAllUsers() {
-//        return null;
-//    }
-//
-//    @Override
-//    public User addUser(User m) {
-//        return null;
-//    }
-//
-//    @Override
-//    public User updateUser(User change) {
-//        return null;
-//    }
-//
-//    @Override
-//    public User deleteUser(int id) {
-//        User u = ur.getUser(id);
-//        return ur.deleteUser(u);
-//    }
 }
