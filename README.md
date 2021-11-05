@@ -82,20 +82,20 @@ Events  | Holds events information, like start date, cost... and four references
 Files  |  Holds all uploaded files. Not implemented.
 
 ## End Point
-* Login Validation\n
+* Login Validation<br />
 GET : `/login`
-* Request the user information for the current login account\n
+* Request the user information for the current login account<br />
 GET : `/users/user_id`
-* Request the direct supervisor information for the current login account\n
+* Request the direct supervisor information for the current login account<br />
 GET : `/supervisors/user_id`
-* Request the department header information for the current login account\n
+* Request the department header information for the current login account<br />
 GET : `/heads/department_id`
-* Request all events information for the current login account\n
+* Request all events information for the current login account<br />
 GET : `/users/user_id/events`
-* Request to create a new event for the current login account\n
+* Request to create a new event for the current login account<br />
 POST : `/users/user_id/events`
-* Request to update a event for the current login account\n
+* Request to update a event for the current login account<br />
 PUT : `/users/user_id/events/event_id`
-* Request to delete event for the current login account\n
+* Request to delete event for the current login account<br />
 DELETE : `/users/user_id/events/event_id`
 
