@@ -13,6 +13,7 @@ The purpose of TRMS is to provide a system that encourages quality knowledge gro
 * PostgreSQL
 * JUnit 5
 * GSON
+* Servlet
 * Log4J
 * Selenium
 * Cucumber
