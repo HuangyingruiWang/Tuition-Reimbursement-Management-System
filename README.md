@@ -81,7 +81,7 @@ Status  | Holds Status information, like the status name.
 Events  | Holds events information, like start date, cost... and four references to grade format, event type, status, and user.
 Files  |  Holds all uploaded files. Not implemented.
 
-## End Points
+## RESTful End Points
 * Login Validation<br />
 GET : `/login`
 * Request the user information for the current login account<br />
