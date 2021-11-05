@@ -7,6 +7,7 @@ The purpose of TRMS is to provide a system that encourages quality knowledge gro
 ## Technologies Used
 
 * Java 8
+* HTML/CSS/JavaScript
 * Hibernate
 * Javalin
 * PostgreSQL
@@ -50,20 +51,32 @@ git clone https://github.com/HuangyingruiWang/Tuition-Reimbursement-Management-S
   * Extract Maven folder to your C drive.
   * Open the Application folder on IntelliJ IDE, then right click on the project name -> Maven -> reload project. 
 
+* [DBeaver](<https://dbeaver.io/>)
+  * Install the latest version of DBeaver.
+  * Connect to Your AWS PostgreSQL Database.
+  * Run my database.sql script to generate all data entities and data.
+
 ## Usage
 1. Set Environment Variables for DB_URL, DB_USERNAME, DB_PASSWORD
    * In Windows 10: click the start button on your keyboard or at the bottom left corner of your screen, type environment variables.
    * Click on the Edit the system environment variables. On the System Properties Window, click on the Environment Variables button. 
    * Under System variables, create new variables with the correct variable names from above, and variable values as your database-connection information.
+   * You may also need to add those system environment variables into IntelliJ environment variables if you can not run the Java Application.
+    * In your IntelliJ, under Run tag ->  Edit Configuration -> add those enviroment variables.
 3. Run Java Application on IntelliJ.
-4. Run Login.html page that is in the Frontend folder.
-5. 
+4. Run Login.html page on Google Chrome.
 
-## Contributors
+## Data Entities
 
-> Here list the people who have contributed to this project. (ignore this section, if its a solo project)
-
-## License
-
-This project uses the following license: [<license_name>](<link>).
-
+Name  | Description
+------------- | -------------
+Login  | Holds users login information, like username and password
+Departments | Holds department information, like department name
+Users  | Holds users personal information, also has a boolean value for isBenCo, and two references to departments and login
+Department_Header | Holds information of which user is the department header of a certain department.
+Supervisors | Holds information of who is the direct supervisor of some users.
+Event_Type  | Holds event type information, like event name and reimbursements percentage.
+Grade_Format  | Holds grade format information, like grade format name and cut-off grade.
+Status  | Holds Status information, like the status name.
+Events  | Holds events information, like start date, cost... and four references to grade format, event type, status, and user.
+Files  |  Holds all uploaded files. Not implemented.
