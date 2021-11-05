@@ -13,15 +13,15 @@
         </property>
 
 <!--        <property name="hibernate.connection.url">-->
-<!--            jdbc:postgresql://database-1.cdzv9xon8e1s.us-east-2.rds.amazonaws.com/postgres-->
+<!--            url-->
 <!--        </property>-->
 
 <!--        <property name="hibernate.connection.username">-->
-<!--            whyrchris-->
+<!--            username-->
 <!--        </property>-->
 
 <!--        <property name="hibernate.connection.password">-->
-<!--            Chrispxq520.-->
+<!--            password-->
 <!--        </property>-->
 
         <!-- Optional Properties -->
