@@ -31,7 +31,7 @@ The purpose of TRMS is to provide a system that encourages quality knowledge gro
 * Each user is allowed to claim up to 1000$ in tuition reimbursement. 
 * Once a user tries to apply a reimbursement amount larger than the amount available for him/her. This new form will go to the extra process. The benefits coordinator will decide the amount of exceeding available funds for this form or deny the form. And the user is able to confirm the change or cancel the form (delete the form).
 
-To-do list:
+To-Do list:
 * Implement the files stored
    * Users can provide approval documents before they submit a new Form, and the corresponding approval process can be skipped.
    * An employee is able to upload real documents as a response to the leader's request.
@@ -56,6 +56,10 @@ git clone https://github.com/HuangyingruiWang/Tuition-Reimbursement-Management-S
   * Install the latest version of DBeaver.
   * Connect to Your AWS PostgreSQL Database.
   * Run my database.sql script to generate all data entities and data.
+
+* [VSCode](<https://code.visualstudio.com/download>)
+  * Install the latest version of VSCode.
+  * Open the Frontend folder on VSCode. 
 
 ## Usage
 1. Set Environment Variables for DB_URL, DB_USERNAME, DB_PASSWORD
